@@ -1,0 +1,26 @@
+.social-contact {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-top: 10px;
+  margin-bottom: 10px;
+}
+.social-contact-div{
+    padding: 6px;
+    cursor: pointer;
+    margin: 6px;
+}
+.social-icon{
+    height: 40px;
+}
+@media screen and (max-width: 768px)
+{
+    .social-contact-div{
+        padding: 4px;
+        margin: 4px;
+    }
+    .social-icon{
+        height: 30px;
+    }
+    
+}
