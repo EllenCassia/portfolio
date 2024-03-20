@@ -4,7 +4,7 @@ export const validate = (nome, email, mensagem) => {
     if (nome == '' || email == '' || mensagem == '') {
         errors.push('Preencha todos os campos');
     };
-    if (email.indexOf('@') === -1) {
+    if (email.indexOf('@') == -1) {
         errors.push('Email inválido');
     };
     if (mensagem.length < 10) {
