@@ -1,6 +1,8 @@
 import React from 'react'
 import './sobre.css'
 import SocialContato from '../../social-contato'
+import foto from '../../../assets/foto.jpg';
+
 
 
 function Sobre() {
@@ -16,7 +18,7 @@ function Sobre() {
           </div>
         </div>
         <div className='about-photo'>
-          <img src="https://media.licdn.com/dms/image/D4D03AQFDlmW8_f3hyA/profile-displayphoto-shrink_800_800/0/1676493254757?e=2147483647&v=beta&t=-zUkGYW19Ne1YrfHt6zCznluefL6UVxiqg7BrRT8Ec0" className='picture' alt='foto' />
+          <img src={foto} className="picture" alt="foto" />
         </div>
       </div>  
     </div>

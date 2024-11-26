@@ -8,10 +8,10 @@
 .social-contact-div{
     padding: 6px;
     cursor: pointer;
-    margin: 6px;
+    margin: 25px;
 }
 .social-icon{
-    height: 40px;
+    height: 60px;
 }
 @media screen and (max-width: 768px)
 {
